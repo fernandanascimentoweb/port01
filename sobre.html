@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifolio</title>
+    <link rel="icon" href="./imagens/code.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/21ee42898d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-branding">Fernand@ Marino</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projetos.html" class="nav-link">Projetos</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./imagens/IMG_20240410_132114_454.jpg" alt="">    
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>Muito prazer, <span>sou Fernanda Marino.</span></h2>
+                        <p> Apaixonado por tecnologia, decidi a trilhar o caminho da programação. Sou extremamente motivado, e sempre estou em constante desenvolvimento de minhas habilidades, a cada dia me atualizar. Atualmente estou cursando analise e desenvolvimento de sistemas. Ao longo deste tempo na área, adquiri diversos conhecimentos para o meu aperfeiçoamento, como : Conceitos de web responsivos, JavaScript, Html5 & CSS, React.js + Next js, testes unitarios e integrados
+                        </p>
+                        <div class="btn-social">
+                            <a href="https://github.com/fernandanascimentoweb"><button><i class="fa-brands fa-github"></i></button></a>
+                            <a href="https://www.instagram.com/fernanda.nascimento.35/"><button><i class="fa-brands fa-square-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/fernandanascimentoweb"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form method="post" action="envia.php">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required >
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail :" required >
+                    <input type="text" name="celular" id="celular" placeholder="Seu celular :">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="index.html" class="nav-branding">Fernand@ Marino</a>
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://github.com/fernandanascimentoweb"><button><i class="fa-brands fa-github"></i></button></a>
+                        <a href="https://www.instagram.com/fernanda.nascimento.35/"><button><i class="fa-brands fa-square-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/fernandanascimentoweb"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer borda">
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:fernandanascimentoweb@gmail.com"> fernandanascimentoweb@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="menu.js"></script>
+</body>
+</html>
+
+
+
+
+
